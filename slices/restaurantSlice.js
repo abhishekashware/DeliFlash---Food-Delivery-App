@@ -27,4 +27,4 @@ export const {setRestaurant}=restaurantSlice.actions;
 
 export default restaurantSlice.reducer;
 
-export const selectRestaurant=(s)=>s.restaurant;
+export const selectRestaurant=(s)=>s.restaurant.restaurant;
